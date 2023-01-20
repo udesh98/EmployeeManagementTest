@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 public class UserController {
     @GetMapping("/getUser")
     public String getUser() {
-        return "Hey Udesh !!!";
+        return "Hey Udesh...";
     }
     @PostMapping("/createUser")
     public String createUser() {
